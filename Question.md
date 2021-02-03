@@ -119,17 +119,17 @@ javac *.java
 ### Running and Testing
 You should not test your code by manually entering the inputs.  Instead, enter the inputs into a file, and run
 ```
-java Lab1 < file
+java Lab2 < file
 ```
 
 A set of test inputs is provided as part of the skeleton, named `Lab2.x.in` under the `inputs` directory.  You can run them with, for instance,
 ```
-java Lab1 < inputs/Lab2.1.in
+java Lab2 < inputs/Lab2.1.in
 ```
 
 You can save the output by redirecting it into a file.
 ```
-java Lab1 < inputs/Lab2.1.in > OUT
+java Lab2 < inputs/Lab2.1.in > OUT
 ```
 
 You can automatically test your code against all the given inputs/outputs as well as against the `checkstyle` by running:
@@ -171,3 +171,5 @@ This lab is worth 12 marks and contributes 3% to your final grade.  The marking 
 - Style: 2 marks
 - Correctness: 2 marks
 - OO Design: 8 marks
+
+Note that students who ignore our repeated warnings and interfere with the lab grading automation (by messing around with the repo with `git` directly) will receive 50% discount on the marks of this lab.

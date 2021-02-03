@@ -13,13 +13,13 @@
 
 This is a continuation of Lab 1.  Lab 2 changes some of the requirements of Lab 1 and adds some new things to the world that we are simulating.  The goal is to demonstrate that, when OO-principles are applied properly, we can adapt our code to changes in the requirement with less effort.
 
-We will also nudge you towards following good coding practice by adhering to a published coding convention.
+Lab 2 also nudges you towards following good coding practice by adhering to a published coding convention.
 
 ## Simulating a Shop with a Queue
 
 Recall that, due to COVID-19 restrictions, no waiting is allowed inside the shop we are simulating.  The shop is losing customers as a customer departs if all the counters are busy.  
 
-In this lab, we will add an entrance queue to the shop.  If all counters are busy when a customer arrives, the customer will join the queue and wait.  When a counter becomes available, the customer at the front of the queue will proceed to the counter for service.
+Lab 2 adds an entrance queue to the shop.  If all counters are busy when a customer arrives, the customer will join the queue and wait.  When a counter becomes available, the customer at the front of the queue will proceed to the counter for service.
 
 The entrance queue has a maximum queue length of $m$.  If there are already $m$ customers waiting in the entrance queue, any arriving customer will be turned away.
 
@@ -170,6 +170,9 @@ This lab is worth 12 marks and contributes 3% to your final grade.  The marking 
 
 - Style: 2 marks
 - Correctness: 2 marks
-- OO Design: 8 marks
+- OO Principles: 8 marks
 
-Note that students who ignore our repeated warnings and interfere with the lab grading automation (by messing around with the repo with `git` directly) will receive 50% discount on the marks of this lab.
+We may make additional deductions for other issues or errors in your code, such as compilation errors, bad practices, failure to follow instructions, etc.
+
+Particularly, students who ignore our repeated warnings and interfere with the lab grading automation (by messing around with the repo with `git` directly) will receive 50% discount on the marks of this lab.
+
